@@ -41,10 +41,6 @@ Explain how to run and use the project. Provide any necessary instructions or st
 1. Start the Laravel development server: `php artisan serve`.
 2. Access the application in your web browser by visiting `http://localhost:80` (or the specified URL).
 
-## Video Documentation
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
-
 ## Screenshots
 
 ![Screenshot](https://imgur.com/j46zpPS.png)
