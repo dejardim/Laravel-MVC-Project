@@ -58,7 +58,7 @@
                                         </tr>
                                     </thead>
                                     <tbody class="mt-6">
-                                        @foreach ($users as $user)
+                                        @foreach ($paginatedUsers as $user)
                                         <tr class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
                                             <td>{{ $user['id'] }}</td>
                                             <td>{{ $user['name'] }}</td>
