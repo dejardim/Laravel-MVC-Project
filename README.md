@@ -30,15 +30,12 @@ The program should perform the following steps:
 3. Run `composer install` to install the project dependencies.
 4. Create a copy of the `.env.example` file and rename it to `.env`.
 5. Generate an application key by running `php artisan key:generate`.
-6. Update the `.env` file with your database credentials.
-7. Run `php artisan migrate` to run the database migrations.
-8. Optionally, run `php artisan db:seed` to seed the database with sample data.
 
 ## Usage
 
 Explain how to run and use the project. Provide any necessary instructions or steps to follow.
 
-1. Start the Laravel development server: `php artisan serve`.
+1. Start the Laravel development server: `./vendor/bin/sail up`.
 2. Access the application in your web browser by visiting `http://localhost:80` (or the specified URL).
 
 ## Screenshots
